@@ -25,6 +25,10 @@ namespace Stacks_And_Queues
             queueUsingLinkList.Enqueue(30);
             queueUsingLinkList.Enqueue(70);
             queueUsingLinkList.Display();
+
+            Console.WriteLine("\nAfter Deque remaining elements is = ");
+            queueUsingLinkList.Dequeue();
+            queueUsingLinkList.Display();
         }
     }
 }
